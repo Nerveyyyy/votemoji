@@ -4,7 +4,7 @@ const client = new Discord.Client();
 client.on('ready', ()  =>{
     //console.log('I am ready!');
     client.user.setStatus("Online");
-    client.user.setActivity("m!help|Monogolf")
+    client.user.setActivity("")
 });
 
 client.on('message', message => {
